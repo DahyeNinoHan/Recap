@@ -57,3 +57,6 @@ print(a[0::2]) #리스트 슬라이싱
 
 print(a*3)
 
+a=[1,2,3,4]
+del a[1]
+print(a)
