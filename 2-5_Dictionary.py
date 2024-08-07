@@ -14,4 +14,23 @@ print(grade)
 
 # 딕셔너리 Key로는 immutable 자료형을 사용해야 함
 
-print
+a = {'name':'pey',
+     'phone':'010-4332-9843',
+     'birth':'1118'}
+print(a.keys())
+
+for k in a.keys():
+    for i in a.values():
+        print(f'{k} and {i}')
+
+print(a.items())
+#print(a.clear())
+
+print(a.get('pHone','nono'))
+print(a['phone'])
+
+print('name' in a)
+
+a = {0:1,1:2,2:3}
+print(a)
+print(type(a))
